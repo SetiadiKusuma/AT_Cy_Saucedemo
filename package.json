@@ -1,0 +1,16 @@
+{
+  "name": "AT_Cy_Saucedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zalu",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "dependencies": {
+    "cypress": "9.7.0"
+  }
+}
